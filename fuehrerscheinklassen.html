@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Führerscheinklassen - Olli's Fahrschule</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">
+        <div class="logo-icon">O</div>
+        <div class="logo-text hidden-mobile">
+          <h1>Olli's</h1>
+          <p>Fahrschule</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html">Startseite</a>
+        <a href="anmeldung.html">Anmeldung</a>
+        <a href="index.html#locations">Standorte</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+
+      <button class="menu-toggle">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <button class="cta-button" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <div class="container mobile-menu-content">
+        <a href="index.html">Startseite</a>
+        <a href="anmeldung.html">Anmeldung</a>
+        <a href="index.html#locations">Standorte</a>
+        <a href="kontakt.html">Kontakt</a>
+        <div class="mobile-menu-divider">
+          <div class="mobile-menu-footer">
+            <a href="datenschutz.html">Datenschutz</a>
+            <a href="impressum.html">Impressum</a>
+          </div>
+        </div>
+        <button class="mobile-menu-button" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section style="background: linear-gradient(to right, #1a1a2e, rgba(26, 26, 46, 0.9)); color: white; padding: 3rem 0; margin-bottom: 3rem;">
+    <div class="container">
+      <h1 style="font-size: 2.25rem; margin-bottom: 0.5rem;">Führerscheinklassen</h1>
+      <p style="font-size: 1.125rem; color: rgba(255, 255, 255, 0.9); margin: 0;">Wir bieten professionelle Ausbildung für alle gängigen Führerscheinklassen</p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container" style="padding-bottom: 3rem;">
+      <div style="display: grid; grid-template-columns: 1fr; gap: 2rem;">
+        <!-- Klasse B -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Klasse B - Auto</h3>
+          </div>
+          <div class="card-content">
+            <h4 style="color: #e85d3f; font-weight: 600; margin-bottom: 1rem;">Standard-Führerschein für PKW</h4>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Fahrzeugtyp:</h5>
+              <p>Autos bis 3.500 kg, bis zu 8 Personen</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Mindestalter:</h5>
+              <p>18 Jahre (oder 17 beim begleiteten Fahren)</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Ausbildungsinhalte:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">✓ Theorieunterricht (12 Doppelstunden)</li>
+                <li style="margin-bottom: 0.5rem;">✓ Praktische Ausbildung (mind. 45 Stunden)</li>
+                <li style="margin-bottom: 0.5rem;">✓ Spezielle Fahrten (Autobahn, Nachtfahrten)</li>
+                <li style="margin-bottom: 0.5rem;">✓ Prüfungsvorbereitung</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+          </div>
+        </div>
+
+        <!-- Klasse BF17 -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Klasse BF17 - Begleitetes Fahren</h3>
+          </div>
+          <div class="card-content">
+            <h4 style="color: #e85d3f; font-weight: 600; margin-bottom: 1rem;">Führerschein mit 17 Jahren</h4>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Fahrzeugtyp:</h5>
+              <p>Autos bis 3.500 kg, bis zu 8 Personen</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Mindestalter:</h5>
+              <p>17 Jahre (mit begleitender Person)</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Besonderheiten:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">✓ Fahren mit begleitender Person</li>
+                <li style="margin-bottom: 0.5rem;">✓ Automatische Umwandlung mit 18 Jahren</li>
+                <li style="margin-bottom: 0.5rem;">✓ Erhöhte Verkehrssicherheit</li>
+                <li style="margin-bottom: 0.5rem;">✓ Versicherungsvergünstigungen</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+          </div>
+        </div>
+
+        <!-- Klasse A -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Klasse A - Motorrad</h3>
+          </div>
+          <div class="card-content">
+            <h4 style="color: #e85d3f; font-weight: 600; margin-bottom: 1rem;">Alle Motorräder ohne Leistungsbegrenzung</h4>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Fahrzeugtyp:</h5>
+              <p>Alle Motorräder ohne Leistungsbegrenzung</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Mindestalter:</h5>
+              <p>24 Jahre (oder 20 Jahre mit 2 Jahren A2-Erfahrung)</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Ausbildungsinhalte:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">✓ Theorieunterricht</li>
+                <li style="margin-bottom: 0.5rem;">✓ Praktische Ausbildung auf Motorrädern</li>
+                <li style="margin-bottom: 0.5rem;">✓ Sicherheitstraining</li>
+                <li style="margin-bottom: 0.5rem;">✓ Prüfungsvorbereitung</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+          </div>
+        </div>
+
+        <!-- Klasse A2 -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Klasse A2 - Motorrad (begrenzt)</h3>
+          </div>
+          <div class="card-content">
+            <h4 style="color: #e85d3f; font-weight: 600; margin-bottom: 1rem;">Motorräder bis 35 kW</h4>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Fahrzeugtyp:</h5>
+              <p>Motorräder bis 35 kW (47 PS), Verhältnis max. 0,2 kW/kg</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Mindestalter:</h5>
+              <p>18 Jahre</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Besonderheiten:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">✓ Perfekt für Anfänger</li>
+                <li style="margin-bottom: 0.5rem;">✓ Upgrade zu Klasse A möglich</li>
+                <li style="margin-bottom: 0.5rem;">✓ Praktische Ausbildung auf A2-Motorrädern</li>
+                <li style="margin-bottom: 0.5rem;">✓ Verkehrssicherheit im Fokus</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+          </div>
+        </div>
+
+        <!-- Klasse A1 -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Klasse A1 - Leichtkraftrad</h3>
+          </div>
+          <div class="card-content">
+            <h4 style="color: #e85d3f; font-weight: 600; margin-bottom: 1rem;">Motorräder bis 11 kW</h4>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Fahrzeugtyp:</h5>
+              <p>Motorräder bis 11 kW (15 PS), Verhältnis max. 0,1 kW/kg</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Mindestalter:</h5>
+              <p>16 Jahre</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Ausbildungsinhalte:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">✓ Theorieunterricht</li>
+                <li style="margin-bottom: 0.5rem;">✓ Praktische Ausbildung auf Leichtkrafträdern</li>
+                <li style="margin-bottom: 0.5rem;">✓ Sicherheitstraining für junge Fahrer</li>
+                <li style="margin-bottom: 0.5rem;">✓ Prüfungsvorbereitung</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+          </div>
+        </div>
+
+        <!-- Klasse AM -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Klasse AM - Mofa/Roller</h3>
+          </div>
+          <div class="card-content">
+            <h4 style="color: #e85d3f; font-weight: 600; margin-bottom: 1rem;">Mofas und Roller bis 50 ccm</h4>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Fahrzeugtyp:</h5>
+              <p>Mofas und Roller bis 50 ccm, max. 4 kW</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Mindestalter:</h5>
+              <p>16 Jahre</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Besonderheiten:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">✓ Einstiegsklasse für Jugendliche</li>
+                <li style="margin-bottom: 0.5rem;">✓ Theorieunterricht (6 Doppelstunden)</li>
+                <li style="margin-bottom: 0.5rem;">✓ Praktische Ausbildung (mind. 8 Stunden)</li>
+                <li style="margin-bottom: 0.5rem;">✓ Günstiger und zeiteffizient</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+          </div>
+        </div>
+
+        <!-- Klasse BE -->
+        <div class="card">
+          <div class="card-header">
+            <h3>Klasse BE - Auto mit Anhänger</h3>
+          </div>
+          <div class="card-content">
+            <h4 style="color: #e85d3f; font-weight: 600; margin-bottom: 1rem;">Anhängerführerschein für Klasse B</h4>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Fahrzeugtyp:</h5>
+              <p>Autos mit Anhänger (Gesamtmasse bis 7.000 kg)</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Voraussetzung:</h5>
+              <p>Besitz der Klasse B erforderlich</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h5 style="font-weight: 600; margin-bottom: 0.5rem;">Ausbildungsinhalte:</h5>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 0.5rem;">✓ Theorieunterricht (6 Doppelstunden)</li>
+                <li style="margin-bottom: 0.5rem;">✓ Praktische Ausbildung mit Anhänger</li>
+                <li style="margin-bottom: 0.5rem;">✓ Spezielle Fahrtechniken</li>
+                <li style="margin-bottom: 0.5rem;">✓ Prüfungsvorbereitung</li>
+              </ul>
+            </div>
+            <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Bereit für dein Abenteuer?</h2>
+      <p>Kontaktiere uns noch heute und vereinbare einen Termin. Wir freuen uns auf dich!</p>
+      <div class="cta-buttons">
+        <button class="cta-button-white" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+        <button class="cta-button-white" style="border: 2px solid white; background-color: transparent; color: white;" onclick="window.location.href='tel:024649087799'">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+          </svg>
+          Anrufen
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>Olli's Fahrschule</h3>
+          <p>Professionelle Fahrausbildung für alle Führerscheinklassen</p>
+        </div>
+        <div class="footer-section">
+          <h4>Schnelllinks</h4>
+          <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="anmeldung.html">Anmeldung</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Kontakt</h4>
+          <p>Baesweiler: <a href="tel:024014498">02401 / 4498</a></p>
+          <p>Siersdorf: <a href="tel:024649087799">02464 / 908779</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2026 Olli's Fahrschule. Alle Rechte vorbehalten.</p>
+        </div>
+        <div class="footer-links">
+          <a href="datenschutz.html">Datenschutz</a>
+          <span>|</span>
+          <a href="impressum.html">Impressum</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

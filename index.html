@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olli's Fahrschule - Dein Weg zum Führerschein</title>
+  <meta name="description" content="Professionelle Fahrausbildung an zwei Standorten in der Region. Führerscheinklassen B, A, AM und mehr.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container nav-container">
+      <div class="logo">
+        <div class="logo-icon">O</div>
+        <div class="logo-text hidden-mobile">
+          <h1>Olli's</h1>
+          <p>Fahrschule</p>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="fuehrerscheinklassen.html">Führerscheinklassen</a>
+        <a href="anmeldung.html">Anmeldung</a>
+        <a href="#locations">Standorte</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+
+      <button class="menu-toggle">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <button class="cta-button" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <div class="container mobile-menu-content">
+        <a href="fuehrerscheinklassen.html">Führerscheinklassen</a>
+        <a href="anmeldung.html">Anmeldung</a>
+        <a href="#locations">Standorte</a>
+        <a href="kontakt.html">Kontakt</a>
+        <div class="mobile-menu-divider">
+          <div class="mobile-menu-footer">
+            <a href="datenschutz.html">Datenschutz</a>
+            <a href="impressum.html">Impressum</a>
+          </div>
+        </div>
+        <button class="mobile-menu-button" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Dein Weg zum Führerschein</h1>
+        <p>Mit Olli's Fahrschule erreichst du dein Ziel sicher und zuverlässig. Professionelle Ausbildung an zwei Standorten in der Region.</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-lg" onclick="window.location.href='anmeldung.html'">
+            Jetzt anmelden
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+          <button class="btn btn-secondary btn-lg" onclick="window.location.href='fuehrerscheinklassen.html'">Mehr erfahren</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- BILD-PFAD ANPASSEN: Ersetze die URL mit deinem GitHub-Link zum Fahrlehrer-Bild -->
+        <img src="https://raw.githubusercontent.com/DEIN-USERNAME/REPO-NAME/main/images/fahrlehrer.jpg" alt="Fahrlehrer">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Unsere Leistungen</h2>
+        <p>Wir bieten professionelle Fahrausbildung für alle Führerscheinklassen</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+            </svg>
+          </div>
+          <h3>Praktische Ausbildung</h3>
+          <p>Intensive Fahrstunden mit erfahrenen Fahrlehrern in modernen Fahrzeugen</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <h3>Theorieunterricht</h3>
+          <p>Strukturierter Unterricht mit aktuellen Materialien und Prüfungsvorbereitung</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 4H9m6 16H9m6-4H9"></path>
+            </svg>
+          </div>
+          <h3>Persönliche Betreuung</h3>
+          <p>Individuelle Unterstützung und flexible Terminplanung für deine Bedürfnisse</p>
+        </div>
+      </div>
+
+      <!-- License Classes Preview -->
+      <div class="licenses-box">
+        <div class="licenses-header">
+          <h3>Führerscheinklassen</h3>
+          <button class="btn btn-secondary" onclick="window.location.href='fuehrerscheinklassen.html'">
+            Alle anzeigen
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="licenses-grid">
+          <div class="license-item">
+            <h4>Klasse B</h4>
+            <p class="license-class">Auto</p>
+            <ul>
+              <li>Autos bis 3.500 kg</li>
+              <li>Bis zu 8 Personen</li>
+              <li>Mindestalter: 18 Jahre</li>
+            </ul>
+          </div>
+          <div class="license-item">
+            <h4>Klasse A</h4>
+            <p class="license-class">Motorrad</p>
+            <ul>
+              <li>Alle Motorräder</li>
+              <li>Ohne Leistungsbegrenzung</li>
+              <li>Mindestalter: 24 Jahre</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Section -->
+  <section class="locations" id="locations">
+    <div class="container">
+      <div class="section-header">
+        <h2>Unsere Standorte</h2>
+        <p>Zwei zentral gelegene Filialen für deine Bequemlichkeit</p>
+      </div>
+
+      <div class="locations-grid">
+        <!-- Baesweiler -->
+        <div class="location-card">
+          <div class="location-header">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            <h3>Baesweiler</h3>
+          </div>
+          <div class="location-content">
+            <div class="location-info">
+              <h4>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                </svg>
+                Adresse
+              </h4>
+              <p>Mariastr. 47b<br>52499 Baesweiler</p>
+            </div>
+
+            <div class="location-info">
+              <h4>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                </svg>
+                Telefon
+              </h4>
+              <a href="tel:024014498">02401 / 4498</a>
+            </div>
+
+            <div class="location-info">
+              <h4>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                Öffnungszeiten Anmeldung
+              </h4>
+              <ul class="location-hours">
+                <li>Montag: 16:00 – 18:00</li>
+                <li>Dienstag: 17:00 – 19:00</li>
+                <li>Donnerstag: 17:00 – 19:00</li>
+                <li>Freitag: 15:30 – 17:00</li>
+              </ul>
+            </div>
+
+            <button class="location-button" onclick="window.location.href='kontakt.html'">Kontakt aufnehmen</button>
+          </div>
+        </div>
+
+        <!-- Siersdorf -->
+        <div class="location-card">
+          <div class="location-header">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            <h3>Siersdorf</h3>
+          </div>
+          <div class="location-content">
+            <div class="location-info">
+              <h4>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                </svg>
+                Adresse
+              </h4>
+              <p>Marktstr. 1<br>52457 Aldenhoven</p>
+            </div>
+
+            <div class="location-info">
+              <h4>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                </svg>
+                Telefon
+              </h4>
+              <a href="tel:024649087799">02464 / 908779</a>
+            </div>
+
+            <div class="location-info">
+              <h4>
+                <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                Öffnungszeiten Anmeldung
+              </h4>
+              <ul class="location-hours">
+                <li>Mittwoch: 16:30 – 18:00</li>
+                <li>Freitag: 17:00 – 19:00</li>
+              </ul>
+            </div>
+
+            <button class="location-button" onclick="window.location.href='kontakt.html'">Kontakt aufnehmen</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <div class="about-content">
+        <h2>Über Olli's Fahrschule</h2>
+        <p>Olli's Fahrschule wird von Oliver Schmitt geleitet und bietet seit Jahren professionelle Fahrausbildung in der Region. Wir sind stolz auf unsere hohe Erfolgsquote und die zufriedenen Fahrschüler.</p>
+        <p>Mit modernen Fahrzeugen, erfahrenen Fahrlehrern und individueller Betreuung helfen wir dir, sicher und selbstbewusst zum Führerschein zu kommen.</p>
+        <div class="mt-4">
+          <button class="btn btn-primary" onclick="window.location.href='anmeldung.html'">Mehr über uns erfahren</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Bereit für dein Abenteuer?</h2>
+      <p>Kontaktiere uns noch heute und vereinbare einen Termin. Wir freuen uns auf dich!</p>
+      <div class="cta-buttons">
+        <button class="cta-button-white" onclick="window.location.href='anmeldung.html'">Jetzt anmelden</button>
+        <button class="cta-button-white" style="border: 2px solid white; background-color: transparent; color: white;" onclick="window.location.href='tel:024649087799'">
+          <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+          </svg>
+          Anrufen
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>Olli's Fahrschule</h3>
+          <p>Professionelle Fahrausbildung für alle Führerscheinklassen</p>
+        </div>
+        <div class="footer-section">
+          <h4>Schnelllinks</h4>
+          <ul>
+            <li><a href="fuehrerscheinklassen.html">Führerscheinklassen</a></li>
+            <li><a href="anmeldung.html">Anmeldung</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Kontakt</h4>
+          <p>Baesweiler: <a href="tel:024014498">02401 / 4498</a></p>
+          <p>Siersdorf: <a href="tel:024649087799">02464 / 908779</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2026 Olli's Fahrschule. Alle Rechte vorbehalten.</p>
+        </div>
+        <div class="footer-links">
+          <a href="datenschutz.html">Datenschutz</a>
+          <span>|</span>
+          <a href="impressum.html">Impressum</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
